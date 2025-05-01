@@ -110,21 +110,22 @@ shasta \
 ### BUSCO quality control <a name="busco"></a>
 ```
 # Run BUSCO
-busco -i ${sample_id}.asm.fa -m genome -l diptera_odb10 -c 12
+busco -i ${sample_id}.assembly.fa -m genome -l diptera_odb10 -c 12
 ```
 ### Assembly statistics <a name="asm_stats"></a>
 ```
-assembly-stats ${sample_id}.asm.fa
+assembly-stats ${sample_id}.assembly.fa
 ```
 ### RepeatMasking <a name="repm"></a>
 ```
 # Build a database for your assembly
-BuildDatabase -name assembly_1a assembly.fasta
+BuildDatabase -name assembly_1a ${sample_id}.assembly.fa
 
 # Run RepeatModeller
 RepeatModeler -database assembly_1a -threads 24 -LTRStruct
 
 # Run RepeatMasker
+RepeatMasker -pa 12 -lib RM_*/consensi.fa.classified -gff -dir RM_output/ ${sample_id}.assembly.fa
 ```
 
 
