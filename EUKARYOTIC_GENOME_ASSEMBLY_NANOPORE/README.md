@@ -3,6 +3,7 @@
 This contains a README of exemplar core commands for Eukaryotic genome assembly using Oxford Nanopore reads.
 
 ## Table of contents 
+* [Software](#software)
 * [Read quality control](#RAQC)
   * [Dorado basecalling](#dorado)
   * [Porechop adapter removal](#porechop)
@@ -17,6 +18,9 @@ This contains a README of exemplar core commands for Eukaryotic genome assembly 
 * [Assembly QC](#AQC)
   * [BUSCO](#busco)
   * [Assembly statistics](#asm_stats)
+
+## Software <a name="software"></a>
+PENDING
 
 ## Read quality control <a name="RAQC"></a>
 ### Dorado basecalling <a name="dorado"></a>
