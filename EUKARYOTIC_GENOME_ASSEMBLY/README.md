@@ -1,1 +1,0 @@
-# Eukaryotic genome assembly
