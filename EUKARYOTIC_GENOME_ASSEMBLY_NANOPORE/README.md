@@ -3,21 +3,21 @@
 This contains a README of exemplar core commands for Eukaryotic genome assembly using Oxford Nanopore reads.
 
 ## Table of contents 
-* [Software](#software)
-* [Read quality control](#RAQC)
-  * [Dorado basecalling](#dorado)
-  * [Porechop adapter removal](#porechop)
-  * [Filtlong read subsetting](#filtlong)
-  * [Nanoplot QC](#nanoplot)
-* [Genome assembly](#GAQC)
-  * [Flye assembly](#flye)
-  * [Miniasm assembly](#miniasm)
-  * [WTDBG2 assembly](#wtdbg2)
-  * [Raven assembly](#raven)
-  * [Shasta assembly](#shasta)
-* [Assembly QC](#AQC)
-  * [BUSCO](#busco)
-  * [Assembly statistics](#asm_stats)
+0. [Software](#software)
+1. [Read quality control](#RAQC)\
+  a. [Dorado basecalling](#dorado)\
+  b. [Porechop adapter removal](#porechop)\
+  c. [Filtlong read subsetting](#filtlong)\
+  d. [Nanoplot QC](#nanoplot)
+2. [Genome assembly](#GAQC)\
+  a. [Flye assembly](#flye)\
+  b. [Miniasm assembly](#miniasm)\
+  c. [WTDBG2 assembly](#wtdbg2)\
+  d. [Raven assembly](#raven)\
+  e. [Shasta assembly](#shasta)
+3. [Assembly QC](#AQC)\
+  a. [BUSCO](#busco)\
+  b. [Assembly statistics](#asm_stats)
 
 ## Software <a name="software"></a>
 PENDING
