@@ -3,21 +3,21 @@
 This contains a README of exemplar core commands for Eukaryotic genome assembly using Oxford Nanopore reads.
 
 ## Table of contents 
-0. [Software](#software)
-1. [Read quality control](#RAQC)\
-  a. [Dorado basecalling](#dorado)\
-  b. [Porechop adapter removal](#porechop)\
-  c. [Filtlong read subsetting](#filtlong)\
-  d. [Nanoplot QC](#nanoplot)
-2. [Genome assembly](#GAQC)\
-  a. [Flye assembly](#flye)\
-  b. [Miniasm assembly](#miniasm)\
-  c. [WTDBG2 assembly](#wtdbg2)\
-  d. [Raven assembly](#raven)\
-  e. [Shasta assembly](#shasta)
-3. [Assembly QC](#AQC)\
-  a. [BUSCO](#busco)\
-  b. [Assembly statistics](#asm_stats)
+**0). [Software](#software)**\
+**1). [Read quality control](#RAQC)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**a). [Dorado basecalling](#dorado)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**b). [Porechop adapter removal](#porechop)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**c). [Filtlong read subsetting](#filtlong)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**d). [Nanoplot QC](#nanoplot)**\
+**2). [Genome assembly](#GAQC)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**a). [Flye assembly](#flye)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**b). [Miniasm assembly](#miniasm)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**c). [WTDBG2 assembly](#wtdbg2)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**d). [Raven assembly](#raven)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**e). [Shasta assembly](#shasta)**\
+**3). [Assembly QC](#AQC)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**a). [BUSCO](#busco)**\
+&nbsp;&nbsp;&nbsp;&nbsp;**b). [Assembly statistics](#asm_stats)**
 
 ## Software <a name="software"></a>
 PENDING
